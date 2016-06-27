@@ -16,8 +16,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self performSelectorInBackground:@selector(initJBCPManager) withObject:nil];
     return YES;
+}
+
+- (void)initJBCPManager{
+    // JBCPManagerインスタンスを取得する
+    JBCPManager *manager = [JBCPManager sharedManager];
+    manager.delegate = self;
+    
+    // アクティベーションをする
+    NSError *activateError = nil;
+    [manager initializeWithRequestToken:@"yourRequestToken" secretKey:@"yourSecretKey" options:nil error:&activateError];
+    
+    if (!activateError) {
+        // イベントをアップデートをする
+        NSError *eventError = nil;
+        [manager startUpdateEvents:&eventError];
+    } else {
+        NSLog(@"%@",activateError);
+    }
+    
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -41,5 +61,32 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+#pragma mark - JBCPManagerDelegate
+
+- (void)manager:(JBCPManager *)manager didFinishUpdateEvents:(NSError *)error{
+    if(error){
+        // 一旦何もしない
+    }else{
+        JBCPManager *manager = [JBCPManager sharedManager];
+        NSError *scanError = nil;
+        
+        //VerboseModeをYESにする
+        [manager setVerboseMode:YES];
+        [manager startScan:&scanError];
+    }
+}
+
+- (void)manager:(JBCPManager *)manager fireEvent:(NSDictionary *)event{
+    NSDictionary *actionContentDic = [event objectForKey:@"action_data"];
+    NSString *type = actionContentDic[@"action"];
+    
+    // typeがtextの場合は、textキーでコンテンツの内容を取得することができます。
+    if([type isEqualToString:@"jbcp_open_text"]){
+        NSString *contentText = actionContentDic[@"text"];
+        NSLog(@"event_text:%@",contentText);
+    }
+}
+
 
 @end

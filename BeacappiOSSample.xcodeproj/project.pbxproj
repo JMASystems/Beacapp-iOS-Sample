@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FF58FBE0DEDEB3FCC7DEF05 /* libPods-BeacappiOSSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A8A0D4D28AB9D4126891FE /* libPods-BeacappiOSSampleTests.a */; };
+		67A12118E2B31DDDD9546A54 /* libPods-BeacappiOSSampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4E40D81E04F7F6058071D3 /* libPods-BeacappiOSSampleUITests.a */; };
 		AEB3724D1D20EE990072BBF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB3724C1D20EE990072BBF5 /* main.m */; };
 		AEB372501D20EE990072BBF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB3724F1D20EE990072BBF5 /* AppDelegate.m */; };
 		AEB372531D20EE990072BBF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB372521D20EE990072BBF5 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		AEB3725B1D20EE990072BBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB372591D20EE990072BBF5 /* LaunchScreen.storyboard */; };
 		AEB372661D20EE990072BBF5 /* BeacappiOSSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB372651D20EE990072BBF5 /* BeacappiOSSampleTests.m */; };
 		AEB372711D20EE990072BBF5 /* BeacappiOSSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB372701D20EE990072BBF5 /* BeacappiOSSampleUITests.m */; };
+		EFA99F20E89018782D55A073 /* libPods-BeacappiOSSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 515433575FD15A4D76CF9A0E /* libPods-BeacappiOSSample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0198A5EF498AB84A07FF316A /* Pods-BeacappiOSSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeacappiOSSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeacappiOSSampleTests/Pods-BeacappiOSSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		09A8A0D4D28AB9D4126891FE /* libPods-BeacappiOSSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeacappiOSSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		515433575FD15A4D76CF9A0E /* libPods-BeacappiOSSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeacappiOSSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BDF092FE921DF7DAAE227C /* Pods-BeacappiOSSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeacappiOSSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeacappiOSSampleUITests/Pods-BeacappiOSSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AEB372481D20EE990072BBF5 /* BeacappiOSSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeacappiOSSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB3724C1D20EE990072BBF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEB3724E1D20EE990072BBF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		AEB3726C1D20EE990072BBF5 /* BeacappiOSSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeacappiOSSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB372701D20EE990072BBF5 /* BeacappiOSSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeacappiOSSampleUITests.m; sourceTree = "<group>"; };
 		AEB372721D20EE990072BBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B727BAA5D1CF505CCF1F5B8B /* Pods-BeacappiOSSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeacappiOSSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeacappiOSSampleUITests/Pods-BeacappiOSSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C356FA92E51E92652DA83C82 /* Pods-BeacappiOSSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeacappiOSSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeacappiOSSampleTests/Pods-BeacappiOSSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		E05E811EF9177952E1D88ABB /* Pods-BeacappiOSSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeacappiOSSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeacappiOSSample/Pods-BeacappiOSSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E87A8A1A6EE766D723FBFD20 /* Pods-BeacappiOSSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeacappiOSSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeacappiOSSample/Pods-BeacappiOSSample.release.xcconfig"; sourceTree = "<group>"; };
+		EA4E40D81E04F7F6058071D3 /* libPods-BeacappiOSSampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeacappiOSSampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA99F20E89018782D55A073 /* libPods-BeacappiOSSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF58FBE0DEDEB3FCC7DEF05 /* libPods-BeacappiOSSampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A12118E2B31DDDD9546A54 /* libPods-BeacappiOSSampleUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8ED48C5330814CA2F3619DCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				515433575FD15A4D76CF9A0E /* libPods-BeacappiOSSample.a */,
+				09A8A0D4D28AB9D4126891FE /* libPods-BeacappiOSSampleTests.a */,
+				EA4E40D81E04F7F6058071D3 /* libPods-BeacappiOSSampleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AEB3723F1D20EE990072BBF5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				AEB372641D20EE990072BBF5 /* BeacappiOSSampleTests */,
 				AEB3726F1D20EE990072BBF5 /* BeacappiOSSampleUITests */,
 				AEB372491D20EE990072BBF5 /* Products */,
+				C2E00AB09DF7DEEF8BAE62F8 /* Pods */,
+				8ED48C5330814CA2F3619DCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +167,19 @@
 			path = BeacappiOSSampleUITests;
 			sourceTree = "<group>";
 		};
+		C2E00AB09DF7DEEF8BAE62F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E05E811EF9177952E1D88ABB /* Pods-BeacappiOSSample.debug.xcconfig */,
+				E87A8A1A6EE766D723FBFD20 /* Pods-BeacappiOSSample.release.xcconfig */,
+				0198A5EF498AB84A07FF316A /* Pods-BeacappiOSSampleTests.debug.xcconfig */,
+				C356FA92E51E92652DA83C82 /* Pods-BeacappiOSSampleTests.release.xcconfig */,
+				B727BAA5D1CF505CCF1F5B8B /* Pods-BeacappiOSSampleUITests.debug.xcconfig */,
+				65BDF092FE921DF7DAAE227C /* Pods-BeacappiOSSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEB372751D20EE990072BBF5 /* Build configuration list for PBXNativeTarget "BeacappiOSSample" */;
 			buildPhases = (
+				C4BBD3E378A968F24C0760AB /* [CP] Check Pods Manifest.lock */,
 				AEB372441D20EE990072BBF5 /* Sources */,
 				AEB372451D20EE990072BBF5 /* Frameworks */,
 				AEB372461D20EE990072BBF5 /* Resources */,
+				0B503B11964B13DF2310B45F /* [CP] Embed Pods Frameworks */,
+				FF7E91455BA09137C512A1D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEB372781D20EE990072BBF5 /* Build configuration list for PBXNativeTarget "BeacappiOSSampleTests" */;
 			buildPhases = (
+				F12369CF3394D93D42F1E308 /* [CP] Check Pods Manifest.lock */,
 				AEB3725D1D20EE990072BBF5 /* Sources */,
 				AEB3725E1D20EE990072BBF5 /* Frameworks */,
 				AEB3725F1D20EE990072BBF5 /* Resources */,
+				D9145A75F266BC0E76B81851 /* [CP] Embed Pods Frameworks */,
+				7F57886D34502B86E7439366 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEB3727B1D20EE990072BBF5 /* Build configuration list for PBXNativeTarget "BeacappiOSSampleUITests" */;
 			buildPhases = (
+				16BB674C261E0F02424BEF25 /* [CP] Check Pods Manifest.lock */,
 				AEB372681D20EE990072BBF5 /* Sources */,
 				AEB372691D20EE990072BBF5 /* Frameworks */,
 				AEB3726A1D20EE990072BBF5 /* Resources */,
+				55C078DE248FD3BB8D7B0426 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +312,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B503B11964B13DF2310B45F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeacappiOSSample/Pods-BeacappiOSSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16BB674C261E0F02424BEF25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55C078DE248FD3BB8D7B0426 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeacappiOSSampleUITests/Pods-BeacappiOSSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F57886D34502B86E7439366 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeacappiOSSampleTests/Pods-BeacappiOSSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4BBD3E378A968F24C0760AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9145A75F266BC0E76B81851 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeacappiOSSampleTests/Pods-BeacappiOSSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F12369CF3394D93D42F1E308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7E91455BA09137C512A1D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeacappiOSSample/Pods-BeacappiOSSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEB372441D20EE990072BBF5 /* Sources */ = {
@@ -411,8 +582,10 @@
 		};
 		AEB372761D20EE990072BBF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05E811EF9177952E1D88ABB /* Pods-BeacappiOSSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = BeacappiOSSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.jmas.demo.BeacappiOSSample;
@@ -422,8 +595,10 @@
 		};
 		AEB372771D20EE990072BBF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E87A8A1A6EE766D723FBFD20 /* Pods-BeacappiOSSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = BeacappiOSSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.jmas.demo.BeacappiOSSample;
@@ -433,6 +608,7 @@
 		};
 		AEB372791D20EE990072BBF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0198A5EF498AB84A07FF316A /* Pods-BeacappiOSSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BeacappiOSSampleTests/Info.plist;
@@ -445,6 +621,7 @@
 		};
 		AEB3727A1D20EE990072BBF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C356FA92E51E92652DA83C82 /* Pods-BeacappiOSSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BeacappiOSSampleTests/Info.plist;
@@ -457,6 +634,7 @@
 		};
 		AEB3727C1D20EE990072BBF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B727BAA5D1CF505CCF1F5B8B /* Pods-BeacappiOSSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BeacappiOSSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -468,6 +646,7 @@
 		};
 		AEB3727D1D20EE990072BBF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BDF092FE921DF7DAAE227C /* Pods-BeacappiOSSampleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BeacappiOSSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -496,6 +675,7 @@
 				AEB372771D20EE990072BBF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEB372781D20EE990072BBF5 /* Build configuration list for PBXNativeTarget "BeacappiOSSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +684,7 @@
 				AEB3727A1D20EE990072BBF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEB3727B1D20EE990072BBF5 /* Build configuration list for PBXNativeTarget "BeacappiOSSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +693,7 @@
 				AEB3727D1D20EE990072BBF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
